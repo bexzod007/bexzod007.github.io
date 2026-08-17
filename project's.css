@@ -1,0 +1,126 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conteiner1{
+  font-weight: 900;
+  text-align: center;
+  margin-top: 200px;
+}
+.text1{
+  text-align: center;
+  font-weight: 500;
+}
+.header {
+  display: flex;            
+  justify-content: space-between; 
+  align-items: center;      
+  padding: 10px 20px; 
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.nav a {
+  margin-left: 15px; 
+  margin-right: 100px;       
+  text-decoration: none;   
+  color: #878787;
+}
+.logo{
+  font-weight: bolder;
+  margin-left: 100px;
+}
+
+.about{
+  font-weight: bolder;
+  margin: 0px 150px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;    
+  margin: 0px 150px;     
+}
+
+.skills{
+  margin: 0px 150px;
+}
+.html{
+  margin-top: 30px;
+  padding: 24px 16px;
+  border-radius: 25px;
+  font-weight: 600;
+  width: 225px;
+  min-height: 270px;
+  background-color: lightblue;
+  text-align: center;
+  border-style: solid;
+  border-color: #e34f26;
+}
+
+.all{
+  display: flex;      
+  gap: 20px;          
+  justify-content: center;
+  display: flex;
+  justify-content: center; 
+  gap: 20px;              
+  flex-wrap: wrap;
+}
+
+.html2{
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.image{
+  margin-top: 20px;
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  filter: invert(38%) sepia(85%) saturate(1485%) hue-rotate(346deg) brightness(97%) contrast(92%);
+}
+
+.css{
+  margin-top: 30px;
+  padding: 24px 16px;
+  border-radius: 25px;
+  font-weight: 600;
+  width: 225px;
+  min-height: 270px;
+  background-color: lightblue;
+  text-align: center;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+.image2{
+  margin-top: 20px;
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  filter: invert(34%) sepia(82%) saturate(2288%) hue-rotate(193deg) brightness(97%) contrast(93%);
+}
+
+.python{
+  padding: 24px 16px;
+  border-radius: 25px;
+  font-weight: 600;
+  width: 225px;
+  min-height: 270px;
+  margin-top: 30px;
+  background-color: lightblue;
+  text-align: center;
+  border-style: solid;
+  border-color: #3776AB;
+}
+
+.image3{
+  margin-top: 20px;
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(37%) sepia(25%) saturate(1000%) hue-rotate(166deg) brightness(90%);
+}
