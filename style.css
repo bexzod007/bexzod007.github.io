@@ -1,5 +1,16 @@
+body {
+  view-transition-name: main-site-transition;
+}
+
+::view-transition-group(main-site-transition) {
+  animation-duration: 1s;
+}
+
 body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .conteiner1{
@@ -30,6 +41,7 @@ body{
 .logo{
   font-weight: bolder;
   margin-left: 100px;
+  color: #2563EB;
 }
 
 .about{
@@ -124,6 +136,7 @@ body{
   object-fit: contain;
   filter: brightness(0) saturate(100%) invert(37%) sepia(25%) saturate(1000%) hue-rotate(166deg) brightness(90%);
 }
+
 .partfolio {
   display: flex;
   flex-direction: column; 
@@ -164,9 +177,55 @@ body{
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
+body.dark-theme {
+  background-color: #0f172a; 
+  color: #ffffff;
+}
+
+
+body.dark-theme .project {
+  background-color: #2e1065; 
+  color: #ffffff;
+}
+
+body.dark-theme .project2 {
+  background-color: #0c4a6e; 
+  color: #ffffff;
+}
+
+body.dark-theme .project3 {
+  background-color: #7c2d12; 
+  color: #ffffff;
+}
+
 .contacts-block{
   margin-left: 100px;
   font-size: large;
   font-weight: 500;
   font-family: 'Inter', sans-serif;
+}
+
+.theme-btn {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  align-items: center;
+}
+
+
+body.dark-theme {
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+body.dark-theme a {
+  color: #60a5fa; 
+}
+
+body.dark-theme .contacts-block,
+body.dark-theme .hero {
+  color: #f8fafc;
 }
